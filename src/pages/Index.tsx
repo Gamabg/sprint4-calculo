@@ -39,7 +39,7 @@ const Index = () => {
       <header className="bg-[hsl(var(--header-bg))] text-white py-6 sticky top-0 z-50 shadow-lg">
         <div className="container mx-auto px-4">
           <h1 className="text-2xl md:text-3xl font-bold text-center">
-            Cálculo Aplicado ao Futebol Feminino
+            Sprint 4 - Calculo Diferencial e Integral Aplicado ao Futebol Feminino
           </h1>
           <p className="text-center text-muted-foreground mt-2 text-sm md:text-base">
             Funções, Limites, Derivadas e Integrais - Sprint 3
@@ -100,7 +100,7 @@ const Index = () => {
             <CardContent className="space-y-6">
               <div className="space-y-4">
                 <h3 className="text-xl font-semibold">Modelo Matemático</h3>
-                <div className="bg-muted/50 p-6 rounded-lg border-l-4 border-accent">
+                <div className="bg-muted/50 p-4 rounded-lg border-l-4 border-accent">
                   <p className="font-mono text-lg mb-2">f(t) = 5000 × (1.08)^t</p>
                   <div className="space-y-2 text-sm text-muted-foreground">
                     <p><strong>Onde:</strong></p>
@@ -125,7 +125,7 @@ const Index = () => {
                 />
 
                 <h3 className="text-xl font-semibold mt-6">Interpretação dos Resultados</h3>
-                <div className="bg-accent/5 p-6 rounded-lg space-y-3">
+                <div className="bg-accent/5 p-4 rounded-lg space-y-3">
                   <p className="text-muted-foreground leading-relaxed">
                     <strong className="text-foreground">Crescimento acelerado:</strong> Nos primeiros 12 meses, 
                     o número de seguidores mais que dobrou, passando de 5.000 para 12.591 seguidores. 
@@ -164,7 +164,7 @@ const Index = () => {
             <CardContent className="space-y-6">
               <div className="space-y-4">
                 <h3 className="text-xl font-semibold">Modelo Matemático</h3>
-                <div className="bg-muted/50 p-6 rounded-lg border-l-4 border-accent">
+                <div className="bg-muted/50 p-4 rounded-lg border-l-4 border-accent">
                   <p className="font-mono text-lg mb-2">f(t) = 100000 × (1 - e^(-0.1t))</p>
                   <p className="font-mono text-lg mb-4">lim(t → ∞) f(t) = 100.000</p>
                   <div className="space-y-2 text-sm text-muted-foreground">
@@ -190,7 +190,7 @@ const Index = () => {
                 />
 
                 <h3 className="text-xl font-semibold mt-6">Interpretação dos Resultados</h3>
-                <div className="bg-accent/5 p-6 rounded-lg space-y-3">
+                <div className="bg-accent/5 p-4 rounded-lg space-y-3">
                   <p className="text-muted-foreground leading-relaxed">
                     <strong className="text-foreground">Saturação gradual:</strong> O engajamento cresce 
                     rapidamente no início, mas desacelera conforme se aproxima do limite de 100.000 interações. 
@@ -229,7 +229,7 @@ const Index = () => {
             <CardContent className="space-y-6">
               <div className="space-y-4">
                 <h3 className="text-xl font-semibold">Modelo Matemático</h3>
-                <div className="bg-muted/50 p-6 rounded-lg border-l-4 border-accent">
+                <div className="bg-muted/50 p-4 rounded-lg border-l-4 border-accent">
                   <p className="font-mono text-lg mb-2">s(t) = 2t²</p>
                   <p className="font-mono text-lg mb-2">v(t) = ds/dt = 4t</p>
                   <p className="font-mono text-lg mb-4">a(t) = dv/dt = 4</p>
@@ -256,7 +256,7 @@ const Index = () => {
                 />
 
                 <h3 className="text-xl font-semibold mt-6">Interpretação dos Resultados</h3>
-                <div className="bg-accent/5 p-6 rounded-lg space-y-3">
+                <div className="bg-accent/5 p-4 rounded-lg space-y-3">
                   <p className="text-muted-foreground leading-relaxed">
                     <strong className="text-foreground">Aceleração constante:</strong> A derivada segunda 
                     mostra que a jogadora mantém uma aceleração constante de 4 m/s², típica de um sprint 
@@ -300,7 +300,7 @@ const Index = () => {
             <CardContent className="space-y-6">
               <div className="space-y-4">
                 <h3 className="text-xl font-semibold">Modelo Matemático</h3>
-                <div className="bg-muted/50 p-6 rounded-lg border-l-4 border-accent">
+                <div className="bg-muted/50 p-4 rounded-lg border-l-4 border-accent">
                   <p className="font-mono text-lg mb-2">v(t) = 4t</p>
                   <p className="font-mono text-lg mb-2">s = ∫₀¹⁰ v(t) dt = ∫₀¹⁰ 4t dt</p>
                   <p className="font-mono text-lg mb-4">s = [2t²]₀¹⁰ = 2(10)² - 2(0)² = 200 metros</p>
@@ -318,7 +318,7 @@ const Index = () => {
                 <h3 className="text-xl font-semibold mt-6">Análise Gráfica</h3>
                 <IntegralChart />
 
-                <div className="bg-muted/30 p-6 rounded-lg mt-6">
+                <div className="bg-muted/30 p-4 rounded-lg mt-6">
                   <h4 className="font-semibold mb-3">Cálculo Passo a Passo:</h4>
                   <div className="space-y-2 font-mono text-sm">
                     <p>1. Integral: ∫ 4t dt = 2t² + C</p>
@@ -330,7 +330,7 @@ const Index = () => {
                 </div>
 
                 <h3 className="text-xl font-semibold mt-6">Interpretação dos Resultados</h3>
-                <div className="bg-accent/5 p-6 rounded-lg space-y-3">
+                <div className="bg-accent/5 p-4 rounded-lg space-y-3">
                   <p className="text-muted-foreground leading-relaxed">
                     <strong className="text-foreground">Área sob a curva:</strong> A área sombreada no gráfico 
                     representa geometricamente a distância total percorrida. Este conceito visual facilita 
@@ -389,46 +389,6 @@ const Index = () => {
               permitindo tomadas de decisão baseadas em dados tanto para estratégias de marketing 
               digital quanto para otimização de treinamento físico das atletas.
             </p>
-          </CardContent>
-        </Card>
-
-        {/* Expected Product */}
-        <Card className="shadow-lg border-accent/20">
-          <CardHeader>
-            <CardTitle className="text-2xl md:text-3xl mb-2">📄 Produto Esperado</CardTitle>
-          </CardHeader>
-          <CardContent>
-            <div className="space-y-4">
-              <p className="text-lg">
-                <strong>Relatório final em PDF</strong> (máximo 6 páginas) contendo:
-              </p>
-              <ul className="space-y-2 ml-4">
-                <li className="flex items-start gap-3">
-                  <span className="text-accent font-bold">✓</span>
-                  <span>Cabeçalho simples com título e identificação do projeto</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-accent font-bold">✓</span>
-                  <span>Conteúdo teórico explicado de forma clara e acessível</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-accent font-bold">✓</span>
-                  <span>Modelos matemáticos com fórmulas e equações</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-accent font-bold">✓</span>
-                  <span>Gráficos ilustrando cada conceito matemático</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-accent font-bold">✓</span>
-                  <span>Tabelas com dados numéricos validando os modelos</span>
-                </li>
-                <li className="flex items-start gap-3">
-                  <span className="text-accent font-bold">✓</span>
-                  <span>Interpretação detalhada dos resultados</span>
-                </li>
-              </ul>
-            </div>
           </CardContent>
         </Card>
 
